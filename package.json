@@ -1,0 +1,27 @@
+{
+  "name": "@openloader/esbuild",
+  "version": "1.0.0",
+  "description": "The OpenLoader esbuild plugin for creating and building OL plugins.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OLMod/esbuild.git"
+  },
+  "type": "module",
+  "keywords": [
+    "openloader",
+    "discord",
+    "ol",
+    "esbuild",
+    "plugin"
+  ],
+  "author": "OpenLoader/WorriedArrow",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OLMod/esbuild/issues"
+  },
+  "homepage": "https://github.com/OLMod/esbuild#readme",
+  "devDependencies": {
+    "esbuild": "^0.18.15"
+  }
+}
