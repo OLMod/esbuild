@@ -29,7 +29,7 @@ export default function olResolvePlugin() {
                 namespace: Namespaces.OLNamespace
             }));
             build.onLoad({ filter: /.*/, namespace: Namespaces.OLNamespace }, args => ({
-                contents: "export default window.OL." + parse(args.path),
+                contents: "module.exports = {...window.OL." + parse(args.path) + "}",
                 loader: "js"
             }));
         }
